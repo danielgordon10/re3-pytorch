@@ -1,6 +1,9 @@
 # Re3 in PyTorch
 [Re3: Real-Time Recurrent Regression Networks for Visual Tracking of Generic Objects](https://homes.cs.washington.edu/~xkcd/pdfs/re3.pdf)
 
+<img src="/demo/sample_1.gif" height="300"/>
+<img src="/demo/sample_2.gif" height="300"/>
+
 This is the Official Repository for Re3 in PyTorch. However, it has some significant differences between it and the [TensorFlow repository](https://gitlab.com/danielgordon10/re3-tensorflow).
 1. Due to PyTorch's dynamic graph construction, the network can now be trained one unroll at a time. This means less time preprocessing the images, but also it doesn't parallelize as well.
 1. The simulation code is removed as it does not work with this one unroll setup.
