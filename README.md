@@ -19,7 +19,7 @@ conda env update -n re3-pytorch-env -f env.yml
 The model weights we used in our paper were ported from Caffe to Tensorflow and then to PyTorch. There may be slight differences in performance from the original paper.
 Weights can be downloaded by running `sh download_weights_large.sh`
 
-A smaller network trained in PyTorch is also available. Its performance is wors, but it is significantly faster.
+A smaller network trained in PyTorch is also available. Its performance is worse, but it is significantly faster.
 These weights can be downloaded by running `sh download_weights_small.sh`.
 Additionally, set `USE_SMALL_NET = True` in [constants.py](constants.py).
 
